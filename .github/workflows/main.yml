@@ -1,0 +1,64 @@
+# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 20 * * *"}]
+  # Lines below let you run workflow manually and on each commit
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+    
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token
+          # The following scopes are required:
+          #  - public_access (default scope)
+          # The following additional scopes may be required:
+          #  - read:org  (for organization related metrics)
+          #  - read:user (for user related data)
+          #  - repo      (optional, if you want to include private repositories)
+          token: ${{ secrets.Lang_Metrics_Token }}
+          filename: half_cal.svg
+
+          # Options
+          user: omaratabany
+          template: classic
+          base: header, activity, community
+          #, repositories, topics, metadata
+          config_timezone: Asia/Dubai
+          
+          plugin_achievements: no
+          plugin_achievements_display: compact
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: C
+          
+          plugin_activity: no
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+          plugin_activity_limit: 5
+          plugin_activity_load: 300
+          plugin_activity_visibility: all
+          
+          # Edit this when you get more active
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          
+          plugin_languages: no
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, bytes-size
+          plugin_languages_analysis_timeout: 60
+          # plugin_languages_ignored: Jupyter Notebook
+          plugin_languages_categories: programming
+          plugin_languages_colors: rainbow
+          plugin_languages_limit: 10
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+          
+          plugin_topics: no
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+          
+          plugin_stars: no
+          plugin_stars_limit: 3

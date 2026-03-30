@@ -8,9 +8,9 @@
 ╚══════════════════════════════════════════════════════════╝
 ```
 
-[![Location](https://img.shields.io/badge/📍-Dubai,_UAE-0a0a0a?style=flat-square&labelColor=0a0a0a&color=1a1a2e)](https://github.com/yourusername)
-[![iNetwork Solutions](https://img.shields.io/badge/iNetwork-Solutions-0a0a0a?style=flat-square&labelColor=0a0a0a&color=0d47a1)](https://github.com/yourusername)
-[![Fabricode](https://img.shields.io/badge/Fabricode-3D_Production-0a0a0a?style=flat-square&labelColor=0a0a0a&color=00695c)](https://github.com/yourusername)
+[![Location](https://img.shields.io/badge/📍-Dubai,_UAE-0a0a0a?style=flat-square&labelColor=0a0a0a&color=1a1a2e)](https://github.com/omaratabany)
+![iNetwork Solutions](https://img.shields.io/badge/iNetwork-Solutions-0a0a0a?style=flat-square&labelColor=0a0a0a&color=0d47a1)
+[![Fabricode](https://img.shields.io/badge/Fabricode-3D_Production-0a0a0a?style=flat-square&labelColor=0a0a0a&color=00695c)](https://fabricode.ae)
 
 </div>
 
@@ -57,7 +57,7 @@
 **Fabrication & Hardware**
 
 ![3D Printing](https://img.shields.io/badge/FDM_Printing-1E1E1E?style=flat-square&logo=printables&logoColor=white)
-![PETG](https://img.shields.io/badge/PETG_%2F_PLA-2e7d32?style=flat-square)
+![3D Printing](https://img.shields.io/badge/SLA_Printing-1E1E1E?style=flat-square&logo=printables&logoColor=white)
 ![CAD](https://img.shields.io/badge/CAD_Design-0d47a1?style=flat-square)
 ![Laser](https://img.shields.io/badge/Laser_Cutting-b71c1c?style=flat-square)
 ![Electronics](https://img.shields.io/badge/Electronics_%26_Wiring-37474f?style=flat-square)
@@ -95,11 +95,11 @@
 
 | Component | Spec |
 |-----------|------|
-| **Primary Node** | Minisforum MS-01 · i9-12900H · Unraid |
-| **GPU** | RTX 4090 (personal) · Intel Quick Sync (transcoding) |
+| **Primary Node** | Minisforum MS-01 · i9-12900H ·32GB DDR5· Unraid · Intel Quick Sync (transcoding) · 62TB (NAS) |
 | **Storage** | 62TB TerraMaster DAS · NVMe cache drives · LSI LP HBA |
+| **Personal PC** | I9-13400KF· 64GB DDR5 ·RTX 4090 (personal)· 14TB |
 | **Network** | UniFi stack · Cloudflare Tunnel · DU Telecom (CGNAT) |
-| **Printer** | FDM · PETG primary filament · parametric/functional parts |
+| **Printers** | FDM (Creality HI) · PETG primary filament · parametric/functional parts · FDM (P2S) |
 
 ---
 

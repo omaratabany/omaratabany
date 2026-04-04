@@ -63,7 +63,7 @@ I build networks, repair machines, print hardware, and automate what shouldn't n
 ### Experience
 
 **Fabricode** · Founder & Lead Engineer · Dubai, UAE
-> 3D printing and fabrication services company. Client deployments of industrial pellet-fed FDM printers at UAE University and Laine. Custom hardware fabrication, parametric CAD design, on-site printer commissioning, operator training, and client invoicing. FDM · SLA · pellet extrusion · G-code · slicer profiling.
+> 3D printing and fabrication services company. Client deployments of industrial pellet-fed FDM printers at UAE University. Custom hardware fabrication, parametric CAD design, on-site printer commissioning, operator training, and client invoicing. FDM · SLA · pellet extrusion · G-code · slicer profiling.
 
 **iNetwork Solutions** · Cybersecurity & Pre-Sales Consultant · Egypt (Remote)
 > Technical pre-sales and social content across enterprise product lines: VMware VCF/vSAN/NSX, Fortinet FortiGate, Kaspersky endpoint and anti-ransomware solutions. Product positioning, technical accuracy review, and solution documentation.
@@ -74,21 +74,21 @@ I build networks, repair machines, print hardware, and automate what shouldn't n
 
 | Area | Project | Description |
 |---|---|---|
-|  DevOps | `homelab-iac` | Public IaC repo — 6 Docker Compose stacks, Makefile, bootstrap script, GitHub Actions CI |
-|  DevOps | `ansible-lab` | Ubuntu controller + managed node; inventory, playbooks, role-based config management |
-|  Home Lab | `unraid-stack` | Plex · Jellyfin · Radarr · Sonarr · Bazarr · SABnzbd — full arr suite on Unraid |
-|  Home Lab | `cloudflare-tunnels` | Remote access behind CGNAT — zero exposed ports, custom DNS |
-|  Home Lab | `tdarr-pipeline` | QSV-accelerated HEVC transcoding via Intel Quick Sync (254+ FPS) |
-|  Home Lab | `nas-expansion` | LSI LP HBA + JBOD SSD array hot tier on Minisforum MS-01 |
-|  Security | `siem-stack` | Wazuh + Splunk homelab SIEM with Tailscale overlay and Pi-hole DNS filtering |
-|  Networking | `unifi-homelab` | Full VLAN segmentation — IoT isolation, guest SSID, inter-VLAN firewall rules |
-|  Networking | `vcf-labs` | VMware Cloud Foundation deep dives · vSAN · NSX-T |
+|  DevOps      | `homelab-iac` | Public IaC repo — 6 Docker Compose stacks, Makefile, bootstrap script, GitHub Actions CI |
+|  DevOps      | `ansible-lab` | Ubuntu controller + managed node; inventory, playbooks, role-based config management |
+|  Home Lab    | `unraid-stack` | Plex · Jellyfin · Radarr · Sonarr · Bazarr · SABnzbd — full arr suite on Unraid |
+|  Home Lab    | `cloudflare-tunnels` | Remote access behind CGNAT — zero exposed ports, custom DNS |
+|  Home Lab    | `tdarr-pipeline` | QSV-accelerated HEVC transcoding via Intel Quick Sync (254+ FPS) |
+|  Home Lab    | `nas-expansion` | LSI LP HBA + JBOD SSD array hot tier on Minisforum MS-01 |
+|  Security    | `siem-stack` | Wazuh + Splunk homelab SIEM with Tailscale overlay and Pi-hole DNS filtering |
+|  Networking  | `unifi-homelab` | Full VLAN segmentation — IoT isolation, guest SSID, inter-VLAN firewall rules |
+|  Networking  | `vcf-labs` | VMware Cloud Foundation deep dives · vSAN · NSX-T |
 |  Fabrication | `smart-home-mounts` | OpenSCAD parametric bracket system — Fingerbot + Honeywell T6/T6R thermostat |
 |  Fabrication | `bearing-housings` | Parametric FDM-tuned PETG parts (686ZZ spec) for printer repair/rebuild |
 |  Fabrication | `gravity-generator` | 20kg drop · JGB37 gearmotor · LTC3780 buck-boost · Arduino Uno · IBT-2 H-bridge |
-|  Automation | `sqlite-migrations` | Jellyfin watch history migration (20+ users) + Tdarr flow edits via Bash + SQLite |
-|  Automation | `subtitle-pipeline` | Bazarr · Arabic / EN / ES — Subscene + OpenSubtitles multi-language automation |
-|  Automation | `monitoring` | Grafana + Prometheus in Docker · Chromium kiosk dashboard mode |
+|  Automation  | `sqlite-migrations` | Jellyfin watch history migration (20+ users) + Tdarr flow edits via Bash + SQLite |
+|  Automation  | `subtitle-pipeline` | Bazarr · Arabic / EN / ES — Subscene + OpenSubtitles multi-language automation |
+|  Automation  | `monitoring` | Grafana + Prometheus in Docker · Chromium kiosk dashboard mode |
 
 ---
 

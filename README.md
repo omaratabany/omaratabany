@@ -20,13 +20,10 @@ I build networks, repair machines, print hardware, and automate what shouldn't n
 ---
 
 ### Networking & Infrastructure
-
 ![UniFi](https://img.shields.io/badge/UniFi-0559C9?style=flat-square&logo=ubiquiti&logoColor=white)&nbsp;
 ![VMware VCF](https://img.shields.io/badge/VMware_VCF-607078?style=flat-square&logo=vmware&logoColor=white)&nbsp;
-![VMware NSX](https://img.shields.io/badge/NSX-607078?style=flat-square&logo=vmware&logoColor=white)&nbsp;
-![vSAN](https://img.shields.io/badge/vSAN-607078?style=flat-square&logo=vmware&logoColor=white)&nbsp;
-![Cloudflare](https://img.shields.io/badge/Cloudflare_Tunnels-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Tunnels-F38020?style=flat-square&logo=cloudflare&logoColor=white)&nbsp;
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
 ### Self-Hosted / Home Lab
 
 ![Unraid](https://img.shields.io/badge/Unraid-F15A2C?style=flat-square&logo=unraid&logoColor=white)&nbsp;
